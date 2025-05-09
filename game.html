@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Irys Runner</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" type="image/png" href="irys.png">
+</head>
+<body>
+    <div class="game-center">
+        <canvas id="game" width="1200" height="600"></canvas>
+        <div id="score" class="score">0</div>
+        <div id="win-screen" class="overlay" style="display:none;">
+            <div class="win-card">
+                <img src="Logo.png" alt="Irys Logo" class="menu-logo">
+                <h2>Game Over!</h2>
+                <p>You collected <span id="final-score"></span> tokens!</p>
+                <button id="play-again" class="menu-btn">Play again</button>
+                <a href="index.html" class="menu-btn">Back to Menu</a>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
