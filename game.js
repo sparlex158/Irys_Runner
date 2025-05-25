@@ -5,8 +5,8 @@ window.onload = function() {
     const CANVAS_W = 1200;
     const CANVAS_H = 600;
     const GROUND_Y = 540; 
-    const PLAYER_W = 60;
-    const PLAYER_H = 70;
+    const PLAYER_W = 90;
+    const PLAYER_H = 60;
 
     const canvas = document.getElementById('game');
     const ctx = canvas.getContext('2d');
